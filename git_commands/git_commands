@@ -4,3 +4,32 @@
 git config --global core.editor "'' -n -w"
 
 git push -u origin master
+
+
+
+/#remote
+
+git remote
+git remote -v 
+git remote add origin URL
+
+
+git creates local copy with branch name => lopcal repository like origin/master => actaul remote repository.
+
+/# Pull
+git pull => git fetch + git merge 
+exmaple : git pull origin master => git fetch origin 
+                                    git merge master origin/master
+
+
+// # Diff
+git diff : working copy -> stated copy
+git diff --staged : staaged copy -> local commit branch.
+git diff commitId commitID -> diff between the commits 
+
+//#show
+git show commitId : shows the diff between the current commit and its own parent.
+
+// how git creates copies for master branch (or if any)
+
+
