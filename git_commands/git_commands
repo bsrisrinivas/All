@@ -1,0 +1,4 @@
+
+// #git config commamnds 
+
+git config --global core.editor "'' -n -w"
